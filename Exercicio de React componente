@@ -1,0 +1,42 @@
+# Mini exercício de componentização
+
+Observe a seguinte página:
+
+---------------------------------
+
+LOGO
+
+Home | Cursos | Contato
+
+APRENDA PROGRAMAÇÃO
+
+Curso React
+Curso Python
+Curso JavaScript
+
+Entre em contato
+
+© 2026
+
+---------------------------------
+
+Como poderíamos dividir essa interface?
+
+Uma possibilidade:
+
+App
+│
+├── Header
+│
+├── Navbar
+│
+├── Banner
+│
+├── Cursos
+│   ├── Curso
+│   ├── Curso
+│   └── Curso
+│
+├── Contato
+│
+└── Footer
