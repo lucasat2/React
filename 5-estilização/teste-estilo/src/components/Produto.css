@@ -1,0 +1,20 @@
+.produto{
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.produto-titulo { 
+    font-size:24px;
+}
+
+.produto-preco { 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produto-botao { 
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+};

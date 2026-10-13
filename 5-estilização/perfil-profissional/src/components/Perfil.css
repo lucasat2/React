@@ -1,0 +1,31 @@
+.cartao-perfil { 
+    width: 280px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    border: 1px solid purple;
+    border-radius: 12px;
+    align-items: center;
+}   
+
+.nome-destaque{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#5e1a73;
+}
+
+.cidade{
+    font-size: 12px;
+    font-weight: bold;
+    color: green;
+}
+
+.botao{ 
+    width:50%;
+    border: 1px solid purple;
+    border-radius: 12px;
+    padding:8px;
+
+}

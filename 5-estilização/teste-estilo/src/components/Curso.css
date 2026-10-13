@@ -1,0 +1,29 @@
+.curso-card{
+    width: 280px;
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: 2px solid purple;
+    margin:20px auto;
+
+
+}
+
+.curso-categoria{
+    font-size:14px;
+}
+
+.curso-titulo{
+    font-size: 24px;
+}
+
+.curso-preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.curso-botao{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    cursor:pointer;
+}
