@@ -1,0 +1,15 @@
+
+import Componente from './components/Componente'
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+     
+    </>
+  )
+}
+
+export default App
+
