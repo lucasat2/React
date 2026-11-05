@@ -1,18 +1,13 @@
-
-//import Componente from './components/Componente'
-import './App.css'
+import Produto from "./components/Produto"
 
 function App() {
-
-   function mostrarMensagem(){
-    alert("Olá! Você clicou no botão.");
-  }
-
+  
   return (
     <>
-      <button onClick={mostrarMensagem}>Clique aqui</button>
+      <Produto
+      nome = "Mouse gamer"
+      preco = {250}/>
     </>
   )
 }
-
 export default App
