@@ -1,28 +1,21 @@
-import { useState } from "react";
+
+import Produto from "./components/Produto";
 
 function App() {
 
-  const [aberto, setAberto] = useState(false);
 
   return (
-    <div>
-
-      <button
-        onClick={() =>
-          setAberto(!aberto)
-        }
-      >
-        Alternar descrição
-      </button>
-
-      {aberto && (
-        <p>
-          Esta descrição pode ser mostrada ou escondida.
-        </p>
-      )}
-
-    </div>
-  );
+    <>
+      <Produto
+        nome="Notebook Gamer"
+        preco={2500}
+        descricao="Notebook muito bom muito rapido 8gb ram 1tb hd processador Core i7"
+      />
+    </>
+  )
 }
 
 export default App;
+
+
+
